@@ -8,7 +8,7 @@ public:
 	MyString();
 	MyString(int size);
 	MyString(const char* st);
-	MyString(const initializer_list<char>& list);
+	MyString(const std::initializer_list<char>& list);
 	MyString(const MyString& obj);
 	MyString(MyString&& obj);
 	~MyString();
