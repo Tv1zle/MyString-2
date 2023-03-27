@@ -250,3 +250,10 @@ MyString& MyString::operator=(MyString&& obj)
 	}
 	return *this;
 }
+
+
+int main()
+{
+    MyString str = {'H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd', '!'};
+    str.Print();
+}
